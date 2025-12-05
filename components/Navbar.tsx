@@ -12,7 +12,7 @@ export default function Navbar() {
         href={"/"}
         className="flex items-center gap-2 text-2xl font-bold"
       >
-        <FaPhoenixSquadron /> Phoenix
+        <FaPhoenixSquadron /> Rebora
       </Link>
       <div className="flex items-center gap-8">
         <div className="hidden md:flex items-center gap-8">

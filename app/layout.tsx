@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Phoenix",
+  title: "Rebora",
   description: "A simple and fast URL shortener built with Next.js and MongoDB.",
 };
 
