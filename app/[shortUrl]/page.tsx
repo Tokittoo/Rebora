@@ -1,8 +1,8 @@
 import { redirect } from "next/navigation";
 import clientPromise from "@/lib/mongodb";
 
-export default async function Page({ params }: { params: { shortUrl: string } }) {
-  const shortUrl = params.shortUrl;
+export default async function Page({ params }: { params: Promise<{ shortUrl: string }> }) {
+  const shortUrl = (await params).shortUrl;
 
   const client = await clientPromise;
   const db = client.db("shortify");
