@@ -24,7 +24,7 @@ export default function Navbar() {
             Contact
           </Link>
           <Link
-            href={"https://github.com/krishnaprasath/Rebora"}
+            href={"https://github.com/krishnaprasath/phoenix"}
             target="_blank"
             className="text-sm hover:text-muted-foreground"
           >
